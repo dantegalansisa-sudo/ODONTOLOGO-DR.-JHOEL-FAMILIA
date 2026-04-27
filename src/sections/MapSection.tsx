@@ -29,8 +29,8 @@ export default function MapSection() {
           <div className="map-section__info">
             <div className="map-section__detail">
               <span className="map-section__detail-label">Dirección</span>
-              <span className="map-section__detail-value">Av. Winston Churchill No. 808, Torre HYLSA</span>
-              <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>Santo Domingo, República Dominicana</span>
+              <span className="map-section__detail-value">Santo Domingo</span>
+              <span className="map-section__detail-value" style={{ color: 'rgba(255,255,255,0.4)' }}>República Dominicana</span>
             </div>
             <div className="map-section__detail">
               <span className="map-section__detail-label">Horario</span>
@@ -40,9 +40,8 @@ export default function MapSection() {
             </div>
             <div className="map-section__detail">
               <span className="map-section__detail-label">Contacto</span>
-              <a href="tel:+18096873744" className="map-section__detail-value map-section__link">(809) 687-3744</a>
-              <a href="tel:+18096874763" className="map-section__detail-value map-section__link">(809) 687-4763</a>
-              <a href="mailto:info@lalanedental.com" className="map-section__detail-value map-section__link">info@lalanedental.com</a>
+              <a href="tel:+18297944272" className="map-section__detail-value map-section__link">(829) 794-4272</a>
+              <a href="https://instagram.com/dr.jhoelfamilia" target="_blank" rel="noopener noreferrer" className="map-section__detail-value map-section__link">@dr.jhoelfamilia</a>
             </div>
           </div>
 
@@ -55,7 +54,7 @@ export default function MapSection() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación Lalane Dental Team"
+              title="Ubicación Dr. Jhoel Familia"
             />
           </div>
         </motion.div>
